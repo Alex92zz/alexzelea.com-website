@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="portfolio Alex Zelea based on HTML5">
+    <meta name="keywords" content="Alex Zelea, web, web developer, front end, birmingham">
+    <meta name="author" content="Alexandru Zelea">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Particles CSS -->
+    <link rel="stylesheet" href="css/particles.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Freelance Web Designer & Web Developer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/developer1.png">
+</head>
+
+<body>
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+
+    <!--  ---------------------------------------------------- Navigation Bar ---------------------------------------------------- -->
+    <div>
+        <nav class="navbar navbar-fixed-top" id="mynav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" id="logo">Alex Zelea</a>
+                    <button type="button" id="navToggle" class="navbar-toggle" data-toggle="collapse" data-target="overlayNav" onclick="myFunction(this), openNav()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="smooth-menu" href="#">Home</a></li>
+                        <li><a class="smooth-menu" href="#aboutMe">About me</a></li>
+                        <li><a class="smooth-menu" href="#services">Services</a></li>
+                        <li><a class="smooth-menu" href="#contact">Contact me</a></li>
+                    </ul>
+                </div>
+
+                <div id="overlayNav" class="overlay">
+                    <ul class="overlay-content">
+                        <li><a class="smooth-menu" href="#particles-js" onclick="myFunction(navToggle), openNav()">Home</a></li>
+                        <li><a class="smooth-menu" href="#aboutMe" onclick="myFunction(navToggle), openNav()">About me</a></li>
+                        <li><a class="smooth-menu" href="#services" onclick="myFunction(navToggle), openNav()">Services</a></li>
+                        <li><a class="smooth-menu" href="#contact" onclick="myFunction(navToggle), openNav()">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Particles-js and main/first section -->
+
+        <div id="particles-js">
+            <div class="container">
+                <header class="vertical-center">
+                    <h1><span class="txt-type" data-wait="1000" data-words='["Hello!", "High quality websites!", "Web Development", "Web Design", "Photoshop", "Video Editing"]'></span></h1>
+                    <h3>Freelance Web Designer & Web Developer</h3>
+                    <button id="hireMeButton" class="smooth-menu"><a href="#contact">Get in touch </a></button>
+                </header>
+            </div>
+        </div>
+
+
+        <!--  ---------------------------------------------------- About me ---------------------------------------------------- -->
+
+        <div class="container-fluid" id="aboutMe">
+            <div class="row">
+                <section id="sectionOne">
+                    <div class="container">
+                        <h1 class="bigHeader">About Me</h1>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <div class="about-text-left">
+                                <h2>Alexandru Zelea</h2>
+                                <h3>Front end developer</h3>
+                                <div id="typed-strings">
+                                    <p><span style="color:transparent; font-size: 1px;">,</span> ^5000 I am a front-end web developer, ^100for the past 4 years I have been studying different programming languages, ^100some of them I studied at university, ^100some online. ^2000I can develop responsive cutting edge websites using different web technologies like HTML5, ^100CSS3, ^100Sass, ^100Bootstrap and JavaScript. ^2000I also know Java and Python and I can develop scalable apps using the object oriented programming paradigm. ^2000I am located in Birmingham, ^100United Kingdom but I am willing to work with clients all over the world. ^1500Furthermore, ^100I also offer long-term support, ^100advice, ^100and more.
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="typing">
+                                <i><span id="typed"></span></i>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                            <picture>
+                                <source type="image/webp" srcset="images/3.webp">
+                                <img src="images/3.jpg" alt="A picture of Alex" class="img-responsive" id="aboutMeImage">
+                            </picture>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="about-text-right">
+
+                                <div id="skills">
+
+                                    <h3>My Skills</h3>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <!-- skillbar -->
+
+                                            <div class="skillbar" data-percent="95%">
+
+                                                <!--edit percentage-->
+
+                                                <h6 class="skillbar-title">HTML5</h6>
+                                                <!--edit skills-->
+
+                                                <h6 class="skillbar-percent">95%</h6>
+                                                <!--edit percentage-->
+
+                                                <div class="skillbar-bar">
+                                                    <div class="skillbar-child" id="htmlSkill"></div>
+                                                </div>
+                                            </div>
+                                            <!-- end skillbar -->
+
+                                        </div>
+
+
+                                        <div class="col-md-12">
+
+                                            <!-- skillbar -->
+                                            <div class="skillbar" data-percent="90%">
+                                                <!--edit percentage-->
+
+                                                <h6 class="skillbar-title">CSS3</h6>
+                                                <!--edit skills-->
+                                                <h6 class="skillbar-percent">90%</h6>
+                                                <!--edit percentage-->
+
+                                                <div class="skillbar-bar">
+                                                    <div class="skillbar-child" id="cssSkill"></div>
+                                                </div>
+
+                                            </div>
+                                            <!-- end skillbar -->
+
+                                        </div>
+
+                                        <div class="col-md-12">
+
+                                            <!-- skillbar -->
+                                            <div class="skillbar" data-percent="85%">
+                                                <!--edit percentage-->
+
+                                                <h6 class="skillbar-title">Bootstrap</h6>
+                                                <!--edit skills-->
+                                                <h6 class="skillbar-percent">85%</h6>
+                                                <!--edit percentage-->
+
+                                                <div class="skillbar-bar">
+                                                    <div class="skillbar-child" id="bootstrapSkill"></div>
+                                                </div>
+
+                                            </div>
+                                            <!-- end skillbar -->
+
+                                        </div>
+
+
+                                        <div class="col-md-12">
+
+                                            <!-- skillbar -->
+                                            <div class="skillbar" data-percent="75%">
+                                                <!--edit percentage-->
+
+                                                <h6 class="skillbar-title">Sass</h6>
+                                                <!--edit skills-->
+                                                <h6 class="skillbar-percent">75%</h6>
+                                                <!--edit percentage-->
+
+                                                <div class="skillbar-bar">
+                                                    <div class="skillbar-child" id="sassSkill"></div>
+                                                </div>
+
+                                            </div>
+                                            <!-- end skillbar -->
+
+                                        </div>
+
+                                        <div class="col-md-12">
+
+                                            <!-- skillbar -->
+                                            <div class="skillbar" data-percent="70%">
+                                                <!--edit percentage-->
+
+                                                <h6 class="skillbar-title">JavaScript</h6>
+                                                <!--edit skills-->
+                                                <h6 class="skillbar-percent">65%</h6>
+                                                <!--edit percentage-->
+
+                                                <div class="skillbar-bar">
+                                                    <div class="skillbar-child" id="javascriptSkill"></div>
+                                                </div>
+
+                                            </div>
+                                            <!-- end skillbar -->
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <!--  ---------------------------------------------------- Services ---------------------------------------------------- -->
+
+        <div class="container-fluid" id="services">
+            <div class="row">
+                <section id="sectionTwo">
+                    <div class="container">
+                        <div class="row">
+
+                            <p class="bigHeader">Services</p>
+
+                            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 animated" id="servicesDesign">
+
+                                <picture>
+                                    <source type="image/webp" srcset="images/services/pen.webp">
+                                    <img class="responsive servicesImages center" src="images/services/pen.png" alt="Image of a pen">
+                                </picture>
+
+                                <h3 class="center color">Web Design</h3>
+                                <p class="center">Your website will be designed to fulfill your customers expectations. It's important that your website looks great to engage your visitors, allowing your website to become successful and meet the goals you are striving for.</p>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 delay-1s animated" id="servicesDevelopment">
+
+                                <picture>
+                                    <source type="image/webp" srcset="images/services/development.webp">
+                                    <img class="responsive servicesImages center" src="images/services/development.png" alt="Image of a pen" alt="Image of a web browser with code in it">
+                                </picture>
+
+                                <h3 class="center color">Web Development</h3>
+                                <p class="center"> Whatever your idea, I can turn it in to a reality. Your website will perform better, be more efficient, and overall it will provide a better experience for you and your users. Website developed in the right way!</p>
+                            </div>
+
+                            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 delay-2s animated" id="servicesResponsive">
+
+                                <picture>
+                                    <source type="image/webp" srcset="images/services/responsive.webp">
+                                    <img class="responsive servicesImages center" src="images/services/responsive.png" alt="Image of a Computer and a phone next to it">
+                                </picture>
+
+                                <h3 class="center color">Responsive</h3>
+                                <p class="center">Over half of all internet traffic is now from a mobile audience. With such a huge mobile audience, it's important that your website is compatible with all screen sizes. I can make sure your website is accessible by any device.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 delay-3s animated" id="servicesBranding">
+
+                                <picture>
+                                    <source type="image/webp" srcset="images/services/branding.webp">
+                                    <img class="responsive servicesImages center" src="images/services/branding.png" alt="Image of a pen" alt="Drawing of a brand, just an A but with a bit of style">
+                                </picture>
+
+                                <h3 class="center color">Branding</h3>
+                                <p class="center">Whether you’re a start-up business or an established company, we’ll work together to develop the perfect brand. I design eye-catching logos, business cards, letterheads and stationery, graphics, catalogues, and brochures.</p>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 delay-4s animated" id="servicesPhotoshop">
+
+                                <picture>
+                                    <source type="image/webp" srcset="images/services/photoshop.webp">
+                                    <img class="responsive servicesImages center" src="images/services/photoshop.png" alt="Image photshop app on a Computer's screen">
+                                </picture>
+
+                                <h3 class="center color">Photoshop</h3>
+                                <p class="center">I provide professional photo editing services for everyone from small local businesses and start-ups to large companies. For a great website you need great photos edited for your needs and your clients will notice the difference.</p>
+                            </div>
+
+                            <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4 delay-5s animated" id="servicesSEO">
+
+                                <picture>
+                                    <source type="image/webp" srcset="images/services/seo.webp">
+                                    <img class="responsive servicesImages center" src="images/services/seo.png" alt="Image of chart showing improvement">
+                                </picture>
+
+                                <h3 class="center color">SEO</h3>
+                                <p class="center">When creating websites, I carry out standard on-page SEO practices on every page of every website I create, allowing your site to rank higher in search engine results - potentially driving more traffic to your site.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!--  ---------------------------------------------------- Parallax two --------------------------------------------------- -->
+
+        <div class="container-fuild" id="parallaxTwo">
+            <div class="row">
+                <section>
+                    <div class="caption">
+                        <span class="border" style="font-size:25px;color: #f7f7f7;" id="parallaxText">your limitation - it's only your imagination</span>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <!--  ---------------------------------------------------- Contact Me ---------------------------------------------------- -->
+
+        <div class="container-fluid" id="contact">
+            <div class="row">
+                <div class="container">
+                    <h1 class="bigHeader">Contact me</h1>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h1>Get in touch</h1>
+                        <!-- Add font awesome icons -->
+
+                        <ul id="icons">
+                            <li>
+                                <div class="facebook">
+                                    <a href="https://www.facebook.com/alex.zelea" aria-label="Facebook icon with link attached">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="linkedin">
+                                    <a href="https://www.linkedin.com/in/alexandru-zelea" aria-label="LinkedIn icon with link attached">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="instagram">
+                                    <a href="https://www.instagram.com/alex_zelea" aria-label="Instagram Icon with link">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="github">
+                                    <a href="https://github.com/Alex92zz" aria-label="Github icon with link">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div id="contactDetails">
+                            <p>Email Address: alex_zelea@yahoo.com</p>
+                            <p>Phone Number: 07794922161</p>
+                            <p>Location: Birmingham, United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                        <form id="contact-form" method="post" action="contact.php" class="wow fadeInDown" data-wow-delay="1.2s">
+
+                            <div class="messages"></div>
+                            <!--you can change the message in contact.php file -->
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>
+                                                Enter your full name:
+                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name" required="required" data-error="Fullname is required.">
+                                            </label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>
+                                                Enter your email:
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email" required="required" data-error="Valid email is required.">
+                                            </label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>
+                                                Enter your message:
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Your Message" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                            </label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn btn-send" value="">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--  -------------------------- html code finish -------------------------- -->
+
+
+    <!--typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!--  -------------------------- Script for Overlay Change Button -------------------------- -->
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+
+    </script>
+
+    <!--  -------------------------- Script for Overlay to come down -------------------------- -->
+    <script>
+        var open = false;
+
+        function openNav() {
+            if (!open) {
+                document.getElementById("overlayNav").style.height = "100%";
+                open = true;
+            } else {
+                document.getElementById("overlayNav").style.height = "0%";
+                open = false;
+            }
+        }
+
+    </script>
+
+    <!--  -------------------------- Script for Navigation Change Color on Scroll -------------------------- -->
+    <script>
+        var w = window.innerWidth;
+        if (w > 180) {
+            window.onscroll = function() {
+                scrollFunction();
+                shadowFunction();
+                skillBarAnimation();
+                servicesAnimation();
+            }
+
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
+                    document.getElementById("mynav").style.backgroundColor = "black";
+                } else {
+                    document.getElementById("mynav").style.backgroundColor = "transparent";
+                }
+            }
+
+            function shadowFunction() {
+                if (screen.width < 991) {
+                    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                        document.getElementById("mynav").classList.add("navShadow");
+                    } else {
+                        document.getElementById("mynav").classList.remove("navShadow");
+                    }
+                } else {
+                    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+                        document.getElementById("mynav").classList.add("navShadow");
+                    } else {
+                        document.getElementById("mynav").classList.remove("navShadow");
+                    }
+                }
+            }
+
+            function skillBarAnimation() {
+                if (screen.width < 991) {
+                    if (document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) {
+                        document.getElementById("htmlSkill").style.width = "95%";
+                        document.getElementById("cssSkill").style.width = "90%";
+                        document.getElementById("bootstrapSkill").style.width = "85%";
+                        document.getElementById("sassSkill").style.width = "75%";
+                        document.getElementById("javascriptSkill").style.width = "65%";
+                    }
+                } else {
+                    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+                        document.getElementById("htmlSkill").style.width = "95%";
+                        document.getElementById("cssSkill").style.width = "90%";
+                        document.getElementById("bootstrapSkill").style.width = "85%";
+                        document.getElementById("sassSkill").style.width = "75%";
+                        document.getElementById("javascriptSkill").style.width = "65%";
+                    }
+
+                }
+            }
+
+            function servicesAnimation() {
+                if (screen.width < 991) {
+                    if (document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500) {
+                        document.getElementById("servicesDesign").classList.add("fadeInDown");
+                        document.getElementById("servicesDevelopment").classList.add("fadeInDown");
+                        document.getElementById("servicesResponsive").classList.add("fadeInDown");
+                        document.getElementById("servicesBranding").classList.add("fadeInDown");
+                        document.getElementById("servicesPhotoshop").classList.add("fadeInDown");
+                        document.getElementById("servicesSEO").classList.add("fadeInDown");
+                    }
+                } else {
+                    if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400) {
+                        document.getElementById("servicesDesign").classList.add("fadeInDown");
+                        document.getElementById("servicesDevelopment").classList.add("fadeInDown");
+                        document.getElementById("servicesResponsive").classList.add("fadeInDown");
+                        document.getElementById("servicesBranding").classList.add("fadeInDown");
+                        document.getElementById("servicesPhotoshop").classList.add("fadeInDown");
+                        document.getElementById("servicesSEO").classList.add("fadeInDown");
+                    }
+
+                }
+            }
+
+
+
+        }
+
+    </script>
+    <!--typed.js script  -->
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 20,
+        });
+
+    </script>
+
+    <script>
+
+    </script>
+
+    <!--  -------------------------- Script for Type Writer -------------------------- -->
+    <script src="js/typeWriter.js"></script>
+
+
+    <!--  -------------------------- Script for The Particles -------------------------- -->
+    <script type="text/javascript" src="js/particles.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.min.js" integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        jQuery(document).ready(function() {
+            //Preloader
+            preloaderFadeOutTime = 400;
+
+            function hidePreloader() {
+                var preloader = jQuery('.spinner-wrapper');
+                preloader.fadeOut(preloaderFadeOutTime);
+            }
+            window.setTimeout(hidePreloader, 600);
+        });
+
+    </script>
+</body>
+
+</html>

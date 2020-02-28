@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+html {
+    scroll-behavior: smooth
+}
+
+p {
+    letter-spacing: 2px
+}
+
+.spinner-wrapper {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: aliceblue;
+    z-index: 999999
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    margin: 42vh auto;
+    background-color: #333;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out
+}
+
+@-webkit-keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0)
+    }
+
+    100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0
+    }
+}
+
+@keyframes sk-scaleout {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0
+    }
+}
+
+nav {
+    position: fixed;
+    transition: 0.6s;
+    background-color: transparent
+}
+
+.navShadow {
+    box-shadow: 0px 20px 50px 15px grey
+}
+
+nav .navbar-header a {
+    color: azure;
+    font-family: "Abril Fatface", cursive;
+    font-size: 25px;
+    letter-spacing: -0.7px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: 0.6s
+}
+
+.navbar-header {
+    background-color: transparent;
+    padding-top: 8px
+}
+
+#navContainer {
+    background-color: transparent
+}
+
+#myNavbar ul li a {
+    color: azure;
+    font-family: "Abril Fatface", cursive;
+    font-size: 20px;
+    letter-spacing: 1px
+}
+
+#myNavbar ul li a:hover {
+    background-color: transparent;
+    color: crimson;
+    transition: 1.5s
+}
+
+#myNavbar ul li a:active {
+    background-color: green
+}
+
+#myNavbar ul li a:visited {
+    background-color: transparent
+}
+
+#myNavbar ul li a:link {
+    background-color: transparent
+}
+
+.nav-colored {
+    background-color: #000
+}
+
+.nav-transparent {
+    background-color: transparent
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 6px;
+    transition: 0.5s
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px)
+}
+
+.change .bar2 {
+    opacity: 0
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px)
+}
+
+.overlay {
+    margin-top: 55px;
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px
+}
+
+.overlay ul {
+    list-style: none
+}
+
+.overlay ul li a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 33px;
+    color: azure;
+    display: block;
+    transition: 0.5s
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: crimson
+}
+
+#particles-js {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%)
+}
+
+.vertical-center h1 span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: azure
+}
+
+.vertical-center h3 {
+    color: crimson;
+    font-family: cursive;
+    font-style: italic;
+    padding: 20px 0px
+}
+
+.txt-type > .txt {
+    border-right: 0.2rem solid azure
+}
+
+#hireMeButton {
+    background-color: transparent;
+    border: 2px solid crimson;
+    color: azure;
+    width: 155px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 20px
+}
+
+#hireMeButton a:any-link {
+    color: azure
+}
+
+#hireMeButton a:visited {
+    color: azure
+}
+
+#hireMeButton a:hover {
+    text-decoration: none
+}
+
+#hireMeButton:hover {
+    background-color: crimson
+}
+
+.bigHeader {
+    font-family: "Abril Fatface", cursive;
+    color: #30374b;
+    text-align: center;
+    letter-spacing: .7px;
+    font-weight: 300;
+    font-size: 60px;
+    padding: 30px;
+    margin: 100px
+}
+
+.about-text-left h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 5px
+}
+
+.about-text-left h3 {
+    color: #212121;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 18px
+}
+
+#typed {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: right;
+    font-weight: 200
+}
+
+#typing {
+    display: block
+}
+
+.typed-cursor {
+    font-size: 17px
+}
+
+#aboutMeImage {
+    box-shadow: 0px 8px 40px 10px grey;
+    border-radius: 15px
+}
+
+#sectionOne {
+    background-color: antiquewhite;
+    padding-bottom: 70px
+}
+
+.webLanguages {
+    font-size: 40px;
+    margin: 15px;
+    transition: 0.5s;
+    text-align: center
+}
+
+.webLanguages:hover {
+    color: aqua;
+    font-size: 50px
+}
+
+.about-text-right {
+    margin-top: 10px
+}
+
+.skillbar {
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+    display: block
+}
+
+.skillbar .skillbar-title {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skillbar .skillbar-percent {
+    float: right;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skillbar-bar {
+    background-color: #ededed;
+    width: 100%;
+    height: 5px
+}
+
+.skillbar-child {
+    width: 0%;
+    transition: 4s;
+    height: 100%;
+    border-radius: 10px;
+    background-color: darkcyan;
+    -webkit-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color
+}
+
+#sectionTwo {
+    background-color: aliceblue;
+    padding-bottom: 70px
+}
+
+.servicesImages {
+    max-width: 50px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.color {
+    color: crimson;
+    font-weight: 500
+}
+
+#parallaxTwo {
+    background-image: url("../images/portfolio/top.jpg");
+    height: 200px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #000
+}
+
+.caption span.border {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase
+}
+
+#contact {
+    background-color: aquamarine
+}
+
+#icons {
+    margin-left: -50px
+}
+
+#icons li {
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    list-style: none
+}
+
+#icons li div {
+    width: 90px;
+    height: 90px;
+    color: #74d4b3;
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 90px;
+    background-color: #fff;
+    transition: all 0.5s ease
+}
+
+#icons li a {
+    color: #77cc6d
+}
+
+#icons li div:hover {
+    transform: rotate(360deg);
+    border-radius: 100px
+}
+
+#contactDetails p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500
+}
+
+#contact-form {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    padding: 5%
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #a2a2a2;
+    box-shadow: none;
+    padding: 6px 0;
+    border-radius: 0;
+    margin-bottom: 30px
+}
+
+textarea.form-control {
+    border: 2px solid #a2a2a2;
+    padding: 6px;
+    height: 250px;
+    margin-bottom: 30px
+}
+
+.btn.btn-send {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.contact-right h2 {
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.socials {
+    padding-top: 5%
+}
+
+.socials i {
+    margin: 0 10px
+}
+
+.single-contact {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    padding: 5%
+}
